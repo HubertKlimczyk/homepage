@@ -5,8 +5,10 @@
 ![Screan of page](images/prtscPage.png)
 
 ## General info:
-This simple website created for practising basic **HTML, CSS** and **JavaScript** skills.
+This simple website created for practising basic skills.
 
 ## Technologies used:
+- HTML
+- CSS
+- JavaScript ES6+ features
 - BEM
-- ES6+ features
