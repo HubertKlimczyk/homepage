@@ -1,0 +1,14 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: hsl(0, 5%, 88%);
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    padding: 5%;
+    box-shadow: inset 0px 0px 29px -2px hsl(215deg 13.9% 62.67% / 35%);
+}
+
+.container--dark {
+    background-color: hsl(225deg 5.88% 13.33%);
+    color: hsl(0, 7%, 70%);
+}

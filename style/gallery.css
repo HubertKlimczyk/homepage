@@ -1,0 +1,25 @@
+.gallery {
+    background-color: hsla(0, 0%, 50%, 0.151);
+    border-radius: 5px;
+    padding: 5px;
+    overflow-x: auto;
+    box-shadow: inset 0px 0px 29px -2px hsl(215, 34%, 59%);
+    margin-bottom: 30px;
+}
+
+.gallery__title {
+    font-size: 25px;
+    margin: 7px 0 0 15px
+}
+
+.gallery__imageContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.gallery__foto {
+    max-width: 250px;
+    padding: 5px;
+}

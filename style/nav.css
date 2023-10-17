@@ -1,0 +1,41 @@
+.nav {
+    padding: 5px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav__listLink {
+    border: 2px solid cornflowerblue;
+    max-width: 220px;
+    padding: 5px;
+    margin: 0 10px 5px 10px;
+    background-color: hsla(219, 51%, 81%, 0.377);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav__listLink:hover {
+    background-color: hsla(219, 51%, 81%, 0.699);
+}
+
+.nav__link {
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: hsla(0, 0%, 0%, 0.705);
+}
+
+.nav__link:focus {
+    background-color: hsla(219, 51%, 81%, 0.699);
+    box-shadow: 0px 0px 42px 17px hsla(221, 52%, 75%, 0.637);
+}
+
+.nav__link:active {
+    color: hsla(240, 95%, 61%, 0.897);
+}

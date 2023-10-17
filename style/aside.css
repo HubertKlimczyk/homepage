@@ -1,0 +1,42 @@
+.aside {
+    border: 5px solid hsla(219, 77%, 68%, 0.301);
+    max-width: 250px;
+    padding: 0 5px 10px;
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 67%, 0.226);
+    margin-bottom: 25px;
+}
+
+.aside:hover {
+    outline: 5px solid hsla(219, 77%, 68%, 0.301);
+}
+
+.aside__title {
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.aside__list {
+    list-style-type: square;
+    line-height: 2;
+}
+
+.aside__link {
+    color: hsl(271, 68%, 32%);
+}
+
+.aside__link--dark {
+    color: hsl(222, 89%, 71%);
+}
+
+.aside__link:active {
+    color: brown;
+}
+
+.aside__link:focus {
+    color: brown;
+}
+
+.aside__link:hover {
+    font-weight: bold;
+}

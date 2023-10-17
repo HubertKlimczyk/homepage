@@ -1,0 +1,34 @@
+.headerContainer {
+    margin-bottom: 30px;
+    padding: 5px;
+    box-shadow: inset 0px 0px 29px -2px hsl(215deg 13.9% 62.67% / 35%);
+    border-radius: 5px;
+}
+
+.headerContainer__header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.headerContainer__headerName {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(145 81 48 / 98%);
+    padding: 5px;
+    margin: auto 0;
+    text-shadow: 2px 2px 6px white, 2px 2px 2px black;
+    border-bottom: 3px solid grey;
+}
+
+.headerContainer__buttonContainer {
+    text-align: right;
+    margin-right: 30px;
+    max-height: 37px;
+}
+
+.headerContainer__foto {
+    max-width: 200px;
+    border-radius: 50%;
+}
