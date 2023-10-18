@@ -3,6 +3,8 @@
     border-radius: 50%;
     background-color: hsla(0, 0%, 86%, 0);
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
+
 }
 
 .button__icon {
