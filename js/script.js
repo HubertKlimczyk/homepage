@@ -15,11 +15,7 @@
 
     const testWord = white => {
         const someString = document.querySelector(".js-button__emptyString");
-        if (white.classList.contains("container--dark")) {
-            someString.innerText = "Napis testowy";
-        } else {
-            someString.innerText = "";
-        }
+        someString.innerText = white.classList.contains("container--dark") ? "Napis testowy" : "";
     };
 
     const init = () => {
